@@ -12,7 +12,6 @@ Anime::Anime(QObject *parent) : QObject(parent)
     QObject::connect(nm, SIGNAL(finished(QNetworkReply *)),this, SLOT(GetReponse(QNetworkReply *)));
 }
 //************************************METHODE**********************************************
-//bonjour
 void Anime::translater(int x){
     float largeur = 134;
     if(x <= 12){
